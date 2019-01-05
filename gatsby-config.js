@@ -3,6 +3,7 @@ module.exports = {
     title: `Wwwxy80s's Blog`,
     author: `wwwxy80s`,
     description: `Personal blog by wwwxy80s`,
+    siteUrl: `https://github.com/wwwxy80s/wwwxy80s.github.io`,
   },
   plugins: [
     {
