@@ -15,16 +15,14 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
-            {
-              ...(title
-                ?{
+            {...(title
+              ? {
                   title,
-                  titleTemplate:`%s | ${data.site.siteMetadata.title}`
+                  titleTemplate: `%s | ${data.site.siteMetadata.title}`,
                 }
-                :{
-                  title:data.site.siteMetadata.title
-                })
-            }
+              : {
+                  title: data.site.siteMetadata.title,
+                })}
             meta={[
               {
                 name: `description`,

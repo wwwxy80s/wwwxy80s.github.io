@@ -27,9 +27,7 @@ function Bio() {
                 borderRadius: `100%`,
               }}
             />
-            <p>
-              个人博客。
-            </p>
+            <p>个人博客。</p>
           </div>
         )
       }}

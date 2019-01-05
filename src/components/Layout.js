@@ -64,7 +64,9 @@ class Layout extends React.Component {
         {header}
         {children}
         <footer>
-          <a href="https://github.com/wwwxy80s" target='_blank'>Github</a>
+          <a href="https://github.com/wwwxy80s" target="_blank">
+            Github
+          </a>
         </footer>
       </div>
     )
