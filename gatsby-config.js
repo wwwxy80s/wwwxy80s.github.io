@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Wwwxy80s's Blog`,
+    title: `Black & Blue`,
     author: `wwwxy80s`,
     description: `Personal blog by wwwxy80s`,
     siteUrl: `https://github.com/wwwxy80s/wwwxy80s.github.io`,
@@ -51,16 +51,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
+    //PWA相关配置
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `wwwxy80s's Blog`,
-        short_name: `wwwxy80s's Blog`,
+        name: `Black & Blue`,
+        short_name: `Black & Blue`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#058eea`,
         display: `minimal-ui`,
-        icon: `content/assets/profile-pic.jpg`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
